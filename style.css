@@ -1,8 +1,11 @@
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+html {
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 /* reset css */
@@ -22,15 +25,16 @@
     padding: 35px;
 }
 
-h1, p {
+h1 {
     text-align: center;
     padding: 15px 0;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: yellow;
+    color: rgb(59, 191, 169);
 }
 
 p {
     font-size: 25px;
+    color: var(--clr);
+    text-align: center;
 }
 
 .picture {
@@ -43,4 +47,15 @@ p {
     width: 100%;
     object-fit: contain;
     border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.linkfb {
+    width: 100%;
+    text-align: center;
 }
